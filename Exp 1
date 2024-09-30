@@ -1,0 +1,40 @@
+#include <iostream>  // Including the library that allows input/output
+
+int main() {
+    // Declare variables for rectangle
+    double length, width, area;
+    
+    // Declare variables for triangle
+    double side1, side2, side3, perimeter;
+
+    // Input the length and width of the rectangle
+    std::cout << "Enter the length of the rectangle: ";
+    std::cin >> length;
+    
+    std::cout << "Enter the width of the rectangle: ";
+    std::cin >> width;
+
+    // Calculate the area of the rectangle
+    area = length * width;
+
+    // Output the area of the rectangle
+    std::cout << "The area of the rectangle is: " << area << std::endl;
+
+    // Input the sides of the triangle
+    std::cout << "Enter the first side of the triangle: ";
+    std::cin >> side1;
+    
+    std::cout << "Enter the second side of the triangle: ";
+    std::cin >> side2;
+
+    std::cout << "Enter the third side of the triangle: ";
+    std::cin >> side3;
+
+    // Calculate the perimeter of the triangle
+    perimeter = side1 + side2 + side3;
+
+    // Output the perimeter of the triangle
+    std::cout << "The perimeter of the triangle is: " << perimeter << std::endl;
+
+    return 0;  // Exit the program
+}
